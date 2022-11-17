@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bài 5: Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có
+giống nhau hay không.
+ -->
+ <script>
+    var arr1 = ["Pham", "Trung", "Duc"];
+    var b = prompt('Write something');
+    var arr2 = b.split(" ")
+    console.log(arr2);
+    for (let i = 0; i<=arr1.length;i++) {
+        if (arr2[i]==arr1[i]) {
+            console.log('Hai mảng này giống nhau');
+        } else {
+            console.log('Hai mảng này không giống nhau')
+        }
+    }
+ </script>
+</body>
+</html>
